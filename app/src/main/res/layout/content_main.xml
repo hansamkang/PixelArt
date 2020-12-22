@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mainLinearLayout"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/app_bar_main"
+    android:orientation="vertical">
+
+    // Main Layout
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_weight="5">
+
+        // Main Canvas
+        <ImageView
+            android:id="@+id/canvasMain"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        // Grid
+        <ImageView
+            android:id="@+id/gridView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+        // Cursor
+        <ImageView
+            android:id="@+id/cursorView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+    </FrameLayout>
+
+    // Color Pallet Layout
+    <LinearLayout
+        android:id="@+id/colorPallet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="0"
+        android:padding="2dp">
+
+        <ImageButton
+            android:id="@+id/colorExtractionButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/spoid"
+            android:scaleType="fitXY"
+            />
+        <ImageButton
+            android:id="@+id/palletButton0"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/palletButton1"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/palletButton2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/palletButton3"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/palletButton4"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+        <ImageButton
+            android:id="@+id/palletButton5"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/palette"
+            android:scaleType="fitXY" />
+
+
+
+    </LinearLayout>
+
+    // Bottom Layout
+    <LinearLayout
+        android:id="@+id/bottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+
+        <Button
+            android:id="@+id/pressButton"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Press" />
+    </LinearLayout>
+
+</LinearLayout>
