@@ -8,18 +8,19 @@
 4. 최적화 기능(커서 DPI 설정, log queue size 설정)
 
 ## 실행화면
-1. 메인화면
+
+### 1. 메인화면
 
 ![RE1](https://user-images.githubusercontent.com/48142591/161014238-4500f89e-73cd-4db1-9e90-038e30189f20.png)
 
-2. 컬러파레트
+### 2. 컬러파레트
 
 ![RE2](https://user-images.githubusercontent.com/48142591/161014390-430271bb-d23b-4a4a-8d0d-c17df15fb0ff.png)
 
-3. NavigationDrawer
+### 3. NavigationDrawer
 
 ![RE3](https://user-images.githubusercontent.com/48142591/161014478-7e4d176e-6554-48c0-a77d-726ca63209f7.png)
 
-4. 설정
+### 4. 설정
 
 ![RE4](https://user-images.githubusercontent.com/48142591/161015725-466a295d-ae34-469e-ba4e-b34087c10b2d.png)
