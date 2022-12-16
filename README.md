@@ -1,6 +1,9 @@
 # PixelArt
 안드로이드 스튜디오를 이용한 픽셀아트 어플리케이션
 
+# 작성 Code로 바로가기
+https://github.com/hansamkang/PixelArt/tree/main/app/src/main
+
 ## 구현기능
 1. 커서 드레그 방식의 기본적인 픽셀아트 기능(그리기, 지우기 등)
 2. 기타 편의 기능(그리드, 채우기, 뒤로가기, 앞으로가기, 컬러피커, 컬러파레트)
